@@ -1,8 +1,14 @@
+import Header from './components/Header';
+import Webdevelopment from './components/Webdevelopment';
+
 function App() {
   return (
-    <div>
-      <h2 className="bg-gray-600 text-white">TEST</h2>
-    </div>
+    <>
+      <Header />
+      <main>
+        <Webdevelopment />
+      </main>
+    </>
   );
 }
 
