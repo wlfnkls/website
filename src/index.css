@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* @import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap); */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,4 +17,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.lgbt {
+	background: linear-gradient(90deg, #FE0000 16.66%,
+		#FD8C00 16.66%, 33.32%,
+		#FFE500 33.32%, 49.98%,
+		#119F0B 49.98%, 66.64%,
+		#0644B3 66.64%, 83.3%,
+		#C22EDC 83.3%);
+}
+
+#hero svg {
+  width: 350px;
+}
+
+@media only screen and (min-width: 1024px) {
+  #hero svg {
+    width: 500px;
+  }
 }

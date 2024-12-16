@@ -1,12 +1,14 @@
+// import Contact from './components/Contact';
 import Header from './components/Header';
-import Webdevelopment from './components/Webdevelopment';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <>
       <Header />
       <main>
-        <Webdevelopment />
+        <Hero />
+        {/* <Contact /> */}
       </main>
     </>
   );
